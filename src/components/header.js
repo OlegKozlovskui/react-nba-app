@@ -3,7 +3,16 @@ import { Link } from 'react-router-dom';
 
 const Header = (props) => {
   return(
-    <header>Header</header>
+    <header>
+      <div className="flexbox-container">
+        <Link to="/" className="logo">
+          <span></span>
+        </Link>
+        <nav>
+          <Link to="/teams">Team</Link>
+        </nav>
+      </div>
+    </header>
   )
 };
 

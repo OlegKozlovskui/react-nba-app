@@ -3,7 +3,13 @@ import { Link } from 'react-router-dom';
 
 const Footer = (props) => {
   return(
-    <header>Header</header>
+    <footer>
+      <div className="flexbox-container">
+        <div className="logo">
+          <span></span>
+        </div>
+      </div>
+    </footer>
   )
 };
 
